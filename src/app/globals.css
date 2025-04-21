@@ -35,8 +35,8 @@
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
+  background: var(--background);
   font-family: var(--font-family);
 }
 
@@ -52,4 +52,10 @@ body {
 .inter-text {
   font-family: var(--inter-family);
   font-weight: 600; /* Semibold */
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
 }
