@@ -13,7 +13,7 @@ const Calculator = () => {
   const handleClear = () => setInput("");
   const handleResult = () => {
     try {
-      setInput(eval(input).toString()); // ❗ eval — тимчасово, замінимо потім
+      setInput(eval(input).toString()); // ❗ eval — timely, need to change later
     } catch {
       setInput("Error");
     }

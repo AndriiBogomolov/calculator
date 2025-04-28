@@ -2,7 +2,7 @@
 const CalculatorButton = ({ label, onClick, className = "" }) => (
   <button
     onClick={onClick}
-    className={`bg-blue-200 hover:bg-blue-300 text-xl p-4 rounded ${className}`}
+    className={`w-[71px] h-[72px] rounded-[24px] bg-[var(--dark-button-low-emphasis)] text-[32px] leading-[125%] font-normal text-[var(--dark---text)] text-center`}
   >
     {label}
   </button>
